@@ -1,11 +1,21 @@
-
+// tailwind.config.js
 module.exports = {
   content: [
     './index.html',
-    './src/**/*.{js,jsx,ts,tsx}',  // Add any files where you are using Tailwind classes
+    './src/**/*.{js,jsx,ts,tsx}',  // Add paths to all files using Tailwind classes
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 15s linear infinite',
+      },
+    },
   },
   plugins: [],
 };
