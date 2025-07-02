@@ -16,7 +16,7 @@ export const Projects= ()=>{
                         </div>
                         
                         <div className="flex items-center">
-                            <a href="https://github.com/shaleen69/blog-website" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -> </a>
+                            <a href="https://github.com/shaleen69/blog-website" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -&gt; </a>
                         </div>
                         
                     </div>
@@ -33,7 +33,7 @@ export const Projects= ()=>{
                         </div>
 
                         <div className="flex items-center">
-                            <a href="https://github.com/shaleen69/AI-gemini-chatbot" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -> </a>
+                            <a href="https://github.com/shaleen69/AI-gemini-chatbot" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -&gt; </a>
                         </div>
                         
                     </div>
@@ -49,7 +49,7 @@ export const Projects= ()=>{
                             })}
                         </div>
                         <div className="flex items-center">
-                            <a href="https://github.com/shaleen69/Employee-management-system" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -> </a>
+                            <a href="https://github.com/shaleen69/Employee-management-system" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -&gt; </a>
                         </div>
                         
                         
@@ -66,7 +66,7 @@ export const Projects= ()=>{
                             })}
                         </div>
                         <div className="flex items-center">
-                            <a href="https://github.com/shaleen69/weather-forecast-application" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -> </a>
+                            <a href="https://github.com/shaleen69/weather-forecast-application" className="text-blue-400 hover:text-blue-300 transition-colors my-4 bg-blue-500/10 text-blue-500 py-1 px-3  text-sm hover:border-blue-500/70 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition">View Project -&gt; </a>
                         </div>
                         
                         

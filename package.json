@@ -1,6 +1,6 @@
 {
   "name": "vite-project",
-  "homepage":"https://shaleen69.github.io/portfolio",
+  "homepage": "https://shaleen69.github.io/portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
