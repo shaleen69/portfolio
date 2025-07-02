@@ -1,6 +1,10 @@
 import emailjs from 'emailjs-com'
 import { useState } from 'react'
 export const Contact=()=>{
+   
+   const SERVICE_ID="service_ncdrm9d";
+   const TEMPLATE_ID="template_s1ecjqb";
+   const EMAILJS_PUBLIC_KEY="v--QlRU0HUh2r9MWl";
 
    const [formData,setFormData]=useState({
       name:"",
@@ -13,10 +17,10 @@ export const Contact=()=>{
       
       e.preventDefault();
       emailjs.sendForm(
-         import.meta.env.VITE_SERVICE_ID,
-         import.meta.env.VITE_TEMPLATE_ID,
+         SERVICE_ID,
+         TEMPLATE_ID,
          e.target,
-         import.meta.env.VITE_API_KEY).then((res)=>{
+         EMAILJS_PUBLIC_KEY).then((res)=>{
          alert("Message sent successfully");
          setFormData({name:"",email:"",message:""})
       }).catch(()=>alert("Oops Somethong Went wrong"));
